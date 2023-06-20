@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1:1 문의하기"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2px"
+        android:background="@color/black"
+        android:layout_marginTop="-10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="제목"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/mypage_inquiry_textbox"
+            android:textColor="@color/zzin_gray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:text="문의내용"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/contents"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/mypage_inquiry_textbox"
+            android:textColor="@color/zzin_gray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/checkSuccess"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="접수하기"
+            android:textColor="@color/white"
+            android:background="@drawable/main_banner1_radius"/>
+
+        <Button
+            android:id="@+id/goBack"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_banner1_radius"
+            android:text="돌아가기"
+            android:backgroundTint="@color/yeon_green"
+            android:layout_marginStart="30dp"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

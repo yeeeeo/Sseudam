@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.tabs.TabLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/shop_topbar"
+    app:tabIndicatorColor="@color/zzin_green"
+    app:tabSelectedTextColor="@color/zzin_green"
+    app:tabTextColor="@color/zzin_gray"
+    android:layout_height="wrap_content">
+
+
+
+
+</com.google.android.material.tabs.TabLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="join_array1">
+        <item>서울특별시</item>
+        <item>대전광역시</item>
+        <item>광주광역시</item>
+        <item>부산광역시</item>
+        <item>제주특별자치도</item>
+    </string-array>
+
+    <string-array name="join_array2">
+        <item>동구</item>
+        <item>서구</item>
+        <item>남구</item>
+        <item>북구</item>
+        <item>광산구</item>
+    </string-array>
+
+    <string-array name="join_array3">
+        <item>naver.com</item>
+        <item>nate.com</item>
+        <item>daum.com</item>
+    </string-array>
+</resources>
